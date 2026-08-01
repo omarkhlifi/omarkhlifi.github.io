@@ -107,5 +107,5 @@ Happy customizing! 🎨
 
 ## update
 - git add .
-- git commit -m "Initial portfolio"
+- git commit -m "Update portfolio"
 - git push

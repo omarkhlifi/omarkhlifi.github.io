@@ -27,6 +27,18 @@ export const portfolioConfig = {
 // Detailed Projects Data
 export const projectsData = [
   {
+    "id": "3d-portfolio",
+    "title": "3D Developer Portfolio",
+    "category": "Personal Portfolio",
+    "shortDescription": "A visually stunning 3D portfolio showcasing my skills and projects, built with React and Three.js.",
+    "tech": ["React", "Three.js", "React Three Fiber", "Framer Motion"],
+    "github": "https://github.com/omarkhlifi/omarkhlifi.github.io",
+    "image": "/projects/3d-portfolio.jpg",
+    "color": "cyber-cyan",
+    "year": "2026",
+    "duration": "2 weeks"
+  },
+  {
     "id": "vrmania-custom-pos",
     "title": "VR Mania Custom POS",
     "category": "Enterprise Business System",
