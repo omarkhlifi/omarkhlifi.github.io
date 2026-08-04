@@ -1,6 +1,6 @@
 import React from 'react';
 import { portfolioConfig } from '../config';
-import { FaCode, FaGamepad, FaBrain, FaRocket } from 'react-icons/fa';
+import { FaCode, FaGamepad, FaBrain, FaRocket, FaFilePdf } from 'react-icons/fa';
 
 const Hero = () => {
   const scrollToContact = () => {
@@ -52,11 +52,15 @@ const Hero = () => {
             Let's Work Together
           </button>
           <a
-            href="#projects"
-            className="glass-effect px-6 py-3 sm:px-8 sm:py-4 rounded-full font-semibold text-base sm:text-lg hover:glow-effect transition-all text-center"
-            data-testid="view-projects-button"
+            href="/resume.pdf"
+            download
+            className="glass-effect px-6 py-3 sm:px-8 sm:py-4 rounded-full font-semibold text-base sm:text-lg hover:glow-effect hover:border-red-500/40 transition-all text-center group"
+            data-testid="download-resume-button"
           >
-            View Projects
+            <span className="inline-flex items-center justify-center gap-2">
+              <FaFilePdf className="text-red-500 text-xl group-hover:scale-110 transition-transform duration-200" />
+              <span>Get Resume (PDF)</span>
+            </span>
           </a>
         </div>
         

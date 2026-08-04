@@ -7,6 +7,7 @@ import About from './components/About';
 import Skills from './components/Skills';
 import Experience from './components/Experience';
 import Projects from './components/Projects';
+import UnityAssets from './components/UnityAssets';
 import Education from './components/Education';
 import Certifications from './components/Certifications';
 import Contact from './components/Contact';
@@ -29,13 +30,14 @@ function App() {
       {/* Navigation */}
       <Navigation />
 
-      {/* Main Content - Order: Home → About → Skills → Experience → Projects → Education → Certifications → Contact */}
+      {/* Main Content - Order: Home → About → Skills → Experience → Projects → Unity Assets → Education → Certifications → Contact */}
       <main className="relative">
         <Hero />
         <About />
         <Skills />
         <Experience />
         <Projects />
+        <UnityAssets />
         <Education />
         <Certifications />
         <Contact />
