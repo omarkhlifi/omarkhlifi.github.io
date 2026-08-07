@@ -60,8 +60,22 @@ export const educationData = [
 
 // Certifications Data
 export const certificationsData = [
+    {
+      id: 1,
+      name: "Teaching English as a Foreign Language",
+      issuer: "TEFL Professional Institute - Teacher Record",
+      date: "August 2026",
+      credentialId: "TR3100501509",
+      skills: [
+        "Teaching English as a Foreign Language (TEFL)",
+        "English as a Second Language (ESL)",
+        "Lesson Planning",
+        "Language Acquisition"
+      ],
+      logo: "🎓"
+  },  
   {
-    id: 1,
+    id: 2,
     name: "Fiber Optic Connection and Measurement Technician (D1, D2, D3)",
     issuer: "Nejma Professional Training School",
     date: "August 2024",
@@ -76,7 +90,7 @@ export const certificationsData = [
     logo: "📡"
   }, 
   {
-    id: 2,
+    id: 3,
     name: "EF SET English Certificate (B2 Upper Intermediate)",
     issuer: "EF Standard English Test (EF SET)",
     date: "February 2024",
@@ -91,7 +105,7 @@ export const certificationsData = [
     logo: "🗣️"
   },
   {
-    id: 3,
+    id: 4,
     name: "English for Career Development Self-Paced MOOC",
     issuer: "Canvas Credentials (Badgr)",
     date: "July 2023",
@@ -106,7 +120,7 @@ export const certificationsData = [
     logo: "🗣️"
   },
   {
-      id: 4,
+      id: 5,
       name: "Professional Technician Qualification Certificate (Level III)",
       issuer: "Tunisian Agency for Vocational Training (ATFP), Tunisia",
       date: "February 2022",
